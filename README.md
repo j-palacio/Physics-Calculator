@@ -41,20 +41,20 @@ final_velocity = calculate_velocity(initial_velocity=20, acceleration=2, time=3)
 ```
 [Add more functions as needed.]
 
-Getting Started
+## Getting Started
+
 To use these functions, follow these steps:
 
-Clone or download this repository to your local machine.
-Open the provided Python file (e.g., physicscal.py) in your preferred Python environment.
-Use the functions as demonstrated in the provided examples or integrate them into your own projects.
-Contributing
+1. Clone or download this repository to your local machine.
+2. Open the provided Python file (e.g., physicscal.py) in your preferred Python environment.
+3. Use the functions as demonstrated in the provided examples or integrate them into your own projects.
+   
+## Contributing
 If you have suggestions for additional functions, improvements, or bug fixes, feel free to contribute! Follow the guidelines in the CONTRIBUTING.md file.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Acknowledgments
+## Acknowledgments
 Thank you for using the Physics Calculator!
-Inspiration or credits (optional).
-Any other acknowledgments (optional).
 Happy teaching and learning!
