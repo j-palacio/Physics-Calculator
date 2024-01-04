@@ -2,30 +2,41 @@
 
 ## Introduction
 
-Welcome to the Physics Calculator! This collection of Python functions is designed to assist physics students in calculating fundamental physical properties. As a physics teacher preparing for the upcoming semester, you can share these functions with your students to support their learning and problem-solving.
+Welcome to the Physics Calculator! This Python program provides functions to assist physics students in calculating fundamental physical properties. As a physics teacher preparing for the upcoming semester, you can share these functions with your students to support their learning and problem-solving.
 
 ## Functions
 
-### Function 1: [Function Name]
+### Function 1: `calculate_force`
 
-Description: [Brief description of the function and its purpose.]
+Description: This function calculates the force acting on an object using Newton's second law of motion.
 
 Usage:
-
 ```python
-# Example usage of Function 1
-result = function_name(parameters)
-print(result)
-Function 2: [Function Name]
-Description: [Brief description of the function and its purpose.]
+# Example usage of calculate_force
+force = calculate_force(mass=10, acceleration=5)
+print(f"The force acting on the object is {force} Newtons.")
+
+### Function 2: calculate_energy
+Description: This function computes the energy of an object based on its mass and velocity.
 
 Usage:
 
 ```python
 Copy code
-# Example usage of Function 2
-result = function_name(parameters)
-print(result)
+# Example usage of calculate_energy
+energy = calculate_energy(mass=5, velocity=10)
+print(f"The energy of the object is {energy} joules.")
+
+### Function 3: calculate_velocity
+Description: Given initial velocity, acceleration, and time, this function calculates the final velocity of an object.
+
+Usage:
+
+```python
+Copy code
+# Example usage of calculate_velocity
+final_velocity = calculate_velocity(initial_velocity=20, acceleration=2, time=3)
+print(f"The final velocity of the object is {final_velocity} m/s.")
 [Add more functions as needed.]
 
 Getting Started
@@ -38,15 +49,10 @@ Contributing
 If you have suggestions for additional functions, improvements, or bug fixes, feel free to contribute! Follow the guidelines in the CONTRIBUTING.md file.
 
 License
-This project is licensed under the LICENSE_NAME - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Acknowledgments
 Thank you for using the Physics Calculator!
 Inspiration or credits (optional).
 Any other acknowledgments (optional).
 Happy teaching and learning!
-
-```vbnet
-Copy code
-
-Remember to replace placeholders such as `[Function Name]`, `[Brief description of the function and its purpose.]`, etc., with your actual function names and descriptions. Additionally, make sure to choose an appropriate license and update the license section accordingly.
