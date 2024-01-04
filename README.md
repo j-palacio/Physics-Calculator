@@ -14,7 +14,7 @@ Usage:
 ```python
 # Example usage of calculate_force
 force = calculate_force(mass=10, acceleration=5)
-print(f"The force acting on the object is {force} Newtons.")
+  print(f"The force acting on the object is {force} Newtons.")
 
 ### Function 2: calculate_energy
 Description: This function computes the energy of an object based on its mass and velocity.
@@ -25,7 +25,7 @@ Usage:
 Copy code
 # Example usage of calculate_energy
 energy = calculate_energy(mass=5, velocity=10)
-print(f"The energy of the object is {energy} joules.")
+  print(f"The energy of the object is {energy} joules.")
 
 ### Function 3: calculate_velocity
 Description: Given initial velocity, acceleration, and time, this function calculates the final velocity of an object.
@@ -36,7 +36,7 @@ Usage:
 Copy code
 # Example usage of calculate_velocity
 final_velocity = calculate_velocity(initial_velocity=20, acceleration=2, time=3)
-print(f"The final velocity of the object is {final_velocity} m/s.")
+  print(f"The final velocity of the object is {final_velocity} m/s.")
 [Add more functions as needed.]
 
 Getting Started
